@@ -1,9 +1,9 @@
 spring:
+  application:
+    name: order-service
   cloud:
     config:
       override-none: true
-  application:
-    name: order-service
     
 server:  port: 8201
   
